@@ -1,0 +1,137 @@
+main {
+  margin-top: 25px;
+}
+
+main .left {
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+main .right {
+  width: 75%;
+}
+
+main .left .menu {
+  margin-top: 20px;
+}
+
+main .left .menu a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-top: 30px;
+}
+
+main .left .menu a:hover {
+  color: red;
+}
+
+main .left .menu a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+main .left .menu a.help {
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+
+main .right .line {
+  display: flex;
+}
+
+main .right .top_left_1 {
+  background: url(/images/banner_1.png) no-repeat;
+  background-size: cover;
+  width: 480px;
+  height: 180px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+main .right .top_left_2 {
+  background: url(/images/banner_2.png) no-repeat;
+  background-size: cover;
+  width: 480px;
+  height: 180px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+
+main .right .top_right_1 {
+  background: url(/images/banner_3.png) no-repeat;
+  background-size: cover;
+  width: 230px;
+  height: 380px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+
+main .right .top_right_2 {
+  background: url(/images/banner_4.png) no-repeat;
+  background-size: cover;
+  width: 230px;
+  height: 380px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+
+main .right .bottom_left_1 {
+  background: url(/images/banner_5.png) no-repeat;
+  background-size: cover;
+  width: 230px;
+  height: 380px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+
+main .right .bottom_left_2 {
+  background: url(/images/banner_6.png) no-repeat;
+  background-size: cover;
+  width: 230px;
+  height: 380px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+
+main .right .bottom_right_1 {
+  background: url(/images/banner_7.png) no-repeat;
+  background-size: cover;
+  width: 480px;
+  height: 180px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+
+main .right .bottom_right_2 {
+  background: url(/images/banner_8.png) no-repeat;
+  background-size: cover;
+  width: 480px;
+  height: 180px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+
+main .right .top_right {
+  display: flex;
+}
+
+main .right .bottom_left {
+  display: flex;
+}
+
+main .right .favourites {
+  border: none;
+  width: 30px;
+  background: none;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+main .right .favourites img {
+  width: 30px;
+}

@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  max-width: 95%;
+  margin: 10px auto auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url(../fonts/CircularStd-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: "Circular Std";
+  font-weight: 500;
+  font-style: normal;
+}
+
+header .container-fluid .container img {
+  width: 200px;
+}
+
+.search {
+  width: 25%;
+}
+
+header .container-fluid .container form input[type="submit"] {
+  background: url(../images/search_logo.png);
+  background-size: cover;
+  width: 15px;
+  border: none;
+}
+header .container-fluid .container form input[type="text"] {
+  border: none;
+  width: 91%;
+}
+
+header .container-fluid .container form input::placeholder {
+  color: lightgrey;
+  font-family: "Circular Std";
+  font-size: 17px;
+}
+
+header .container-fluid .container nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 42px 0 0;
+}
+
+header .container-fluid .container nav a:hover {
+  color: red;
+}
+
+header .container-fluid .container nav a.active {
+  border-bottom: solid 3px black;
+  padding-bottom: 5px;
+}
+
+header .container-fluid .container nav a img {
+  width: 20px;
+}
+
+header .container-fluid .container nav .links a {
+  margin-right: 23px;
+}
